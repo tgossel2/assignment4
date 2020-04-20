@@ -2,23 +2,68 @@
 <html lang="en">
 
 <head>
+
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+
+</head>
+
+<body>
+
     <header>
         <nav>
             <a href="index.html"><img src="Images/logo.png" alt="Logo" height=75> </a>
             <ul>
                 <li> <a href="Drinks.html">Drinks</a></li>
                 <li> <a href="Products.html">Products</a></li>
+
             </ul>
         </nav>
-        <meta charset="utf-8">
-        <title>Contact Us</title>
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <header>
+    </header>
+    <div></div>
+    <main>
+        <h4>Contact Page</h4>
+        <form action="results.html">
+            <p>
+                <label for="FirstName">First Name</label>
+                <input type="text" name="FirstName" id="FirstName">
+            </p>
+            <p>
+                <label for="LastName">Last Name</label>
+                <input type="text" name="LastName" id="LastName">
+            </p>
+            <p>
+                <label for="Email">Email</label>
+                <input type="text" name="Email" id="Email">
+            </p>
+            <label> for="howdidyouhearaboutus">How did you hear about us?</label>
+            <select name="Howyouheard" id="Howyouheard" multiple>
+                <option value="email">Email Address</option>
+                <option value="Advertisement">Advertisment</option>
+                <option value="FromaFriend">From a Friend</option>
+                <option value="Website">Website</option>
+                <option value="Search">Search</option>
+                <option value="email">Email Address</option>
+            </select>
+            <P>
+                <Label for="Comments">Comments</Label>
+                <textarea name="Comments" id="Comments" rows="4"></textarea>
+            </P>
+            <p>
+                <input type="Submit" value="Submit">
+                <input type="Reset" value="Reset">
+            </p>
+        </form>
 
-            <head>
+    </main>
 
-            <body>
-                <h1>Contact Us1</h1>
-            </body>
+    <footer>
+        &copy; Tristan Gosselin 2020 <br>
+        <a href="mailto:tgossel2@mail.naz.edu">Email me!</a>
+    </footer>
+</body>
 
 </html>

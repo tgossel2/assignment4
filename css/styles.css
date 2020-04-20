@@ -28,7 +28,6 @@ h2 {
     font-size: 8.0em
 }
 
-
 h3,
 h4,
 h5,
@@ -81,11 +80,47 @@ a:hover {
     color: white;
 }
 
+Form P {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+Form Labels {
+    flex-basis: 33%;
+}
+
+Form input,
+textarea,
+select {
+    flex: 1;
+    margin: 0 1em;
+    border-radius: 5px;
+}
+
+Form Select {
+    text-align: center;
+}
+
+
+
+
+
 @media screen and (max-width: 50rem) {
 
     header nav,
     main,
-    footer {
-        flex-direction: column
+    footer,
+    Form P {
+        flex-direction: column;
+    }
+
+    form input,
+    textarea {
+        margin: 2px 0;
+
+    }
+
+    form select {
+        margin: 0;
     }
 }
